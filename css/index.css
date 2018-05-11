@@ -1,0 +1,128 @@
+/*  Extra small devices (portrait phones, less than 576px) */
+
+@media (max-width: 575.98px) {
+    .my-navbar {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .carousel-item {
+        height: 300px;
+    }
+    .banner-go {
+        display: none;
+    }
+}
+
+/*  Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .my-navbar {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+}
+
+/*  Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .my-navbar {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+/*  Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .my-navbar {
+        padding-top: 14px;
+        padding-bottom: 14px;
+    }
+}
+
+/*  Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+    .my-navbar {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+html,
+body {
+    height: 1500px;
+}
+
+.my-navbar {
+    transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link {
+    color: #FB2D2A;
+    border-bottom: 1px solid #FB2D2A;
+}
+
+.my-navbar a {
+    transition: color 0.5s ease-in-out;
+}
+
+.nav-item a:hover {
+    color: #FB2D2A !important;
+    outline: 0
+}
+
+.top-nav {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background: #000 !important;
+}
+
+.carousel-item img {
+    height: 100%;
+}
+
+button.navbar-toggle {
+    background-color: #fbfbfb;
+}
+
+/*整个背景都是transparent透明的，会看不到，所以再次覆盖一下*/
+
+button.navbar-toggle>span.icon-bar {
+    background-color: #dedede
+}
+
+.carousel-indicators li {
+    background: rgba(0, 0, 0, .4);
+    cursor: pointer;
+}
+
+.carousel-indicators .active {
+    background: #FB2D2A;
+}
+
+.banner-go {
+    position: absolute;
+    bottom: 20%;
+    left: 0;
+    width: 100%;
+}
+
+.banner-go .banner-btn-border {
+    width: 100%;
+    height: 100%;
+    border: 2px solid #fff;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    margin-right: 36px;
+}
+.banner-go .active {
+    background: #FB2D2A;
+    border-color: #FB2D2A;
+}
