@@ -1,142 +1,60 @@
 /*  Extra small devices (portrait phones, less than 576px) */
 
-@media (max-width: 575.98px) {
-    .my-navbar {
-        padding-top: 5px;
-        padding-bottom: 5px;
-    }
-    .carousel-item {
-        height: 300px;
-    }
-    .banner-go {
-        display: none;
-    }
-    .carousel-inner {
-        height: 500px;
-    }
-}
+@media (max-width: 575.98px) {}
 
 /*  Small devices (landscape phones, 576px and up) */
 
-@media (min-width: 576px) and (max-width: 767.98px) {
-    .my-navbar {
-        padding-top: 5px;
-        padding-bottom: 5px;
-    }
-}
+@media (min-width: 576px) and (max-width: 767.98px) {}
 
 /*  Medium devices (tablets, 768px and up) */
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-    .my-navbar {
-        padding-top: 10px;
-        padding-bottom: 10px;
+    .company-platform-content {
+        width: 80%;
+        padding-left: 10%;
+    }
+    .company-platform-img {
+        float: right;
+        width: 90%;
+    }
+    .company-platform-img:hover {
+        transform: scale(1.05);
+        transition: transform .7s;
     }
 }
 
 /*  Large devices (desktops, 992px and up) */
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
-    .my-navbar {
-        padding-top: 14px;
-        padding-bottom: 14px;
+    .company-platform-content {
+        width: 80%;
+        padding-left: 10%;
+    }
+    .company-platform-img {
+        float: right;
+        width: 70%;
+    }
+    .company-platform-img:hover {
+        transform: scale(1.05);
+        transition: transform .7s;
     }
 }
 
 /*  Extra large devices (large desktops, 1200px and up) */
 
 @media (min-width: 1200px) {
-    .my-navbar {
-        padding-top: 20px;
-        padding-bottom: 20px;
+    .company-platform-content {
+        width: 80%;
+        padding-left: 10%;
     }
-}
-
-img {
-    display: block;
-    width: 100%;
-}
-
-html,
-body {
-    height: 1500px;
-}
-
-.my-navbar {
-    transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
-}
-
-.navbar-dark .navbar-nav .active>.nav-link {
-    color: #FB2D2A;
-    border-bottom: 1px solid #FB2D2A;
-}
-
-.my-navbar a {
-    transition: color 0.5s ease-in-out;
-}
-
-.nav-item a:hover {
-    color: #FB2D2A !important;
-    outline: 0
-}
-
-.top-nav {
-    padding-top: 2px;
-    padding-bottom: 2px;
-    background: #000 !important;
-}
-
-.carousel-inner {
-    /* height: 500px; */
-}
-
-.carousel-item {
-    height: 100%;
-}
-
-.carousel-item img {
-    height: 100%;
-}
-
-button.navbar-toggle {
-    background-color: #fbfbfb;
-}
-
-/*整个背景都是transparent透明的，会看不到，所以再次覆盖一下*/
-
-button.navbar-toggle>span.icon-bar {
-    background-color: #dedede
-}
-
-.carousel-indicators li {
-    background: rgba(0, 0, 0, .4);
-    cursor: pointer;
-}
-
-.carousel-indicators .active {
-    background: #FB2D2A;
-}
-
-.banner-go {
-    position: absolute;
-    bottom: 20%;
-    left: 0;
-    width: 100%;
-}
-
-.banner-go .banner-btn-border {
-    width: 100%;
-    height: 100%;
-    border: 2px solid #fff;
-    line-height: 50px;
-    text-align: center;
-    color: #fff;
-    margin-right: 36px;
-}
-
-.banner-go .active {
-    background: #FB2D2A;
-    border-color: #FB2D2A;
+    .company-platform-img {
+        float: right;
+        width: 70%;
+    }
+    .company-platform-img:hover {
+        transform: scale(1.05);
+        transition: transform .7s;
+    }
 }
 
 .company-desc {
@@ -179,7 +97,7 @@ button.navbar-toggle>span.icon-bar {
     /* background: #F9F9F9; */
     border-radius: 5px;
     padding: 54px 40px 30px;
-    box-shadow: 0px 10px 50px 10px #F7F7F7; 
+    box-shadow: 0px 10px 50px 10px #F7F7F7;
 }
 
 .company-feature-item-title-icon {
@@ -208,4 +126,102 @@ button.navbar-toggle>span.icon-bar {
     -webkit-line-clamp: 5;
     overflow: hidden;
     font-size: 12px;
+}
+
+.company-platform {
+    background: #F0FAFD;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.company-partner {
+    margin-top: 76px;
+}
+
+.company-partner-item {
+    width: 100%;
+    height: 150px;
+    /* padding: 25px; */
+}
+
+.company-partner-item-content {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #cccc;
+    border-radius: 5px;
+}
+
+.company-partner-item-content img {
+    border-radius: 5px;
+}
+
+.my-partner .carousel-indicators {
+    bottom: -3rem;
+}
+
+.my-partner .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #DFDFDF;
+    cursor: pointer;
+}
+
+.my-partner .carousel-indicators .active {
+    background: #FB2D2A;
+}
+
+.company-partner-item {
+    margin-bottom: 10%;
+}
+
+.carousel-caption {
+    bottom: 36%;
+}
+
+.customer-evaluation {
+    margin-top: 80px;
+    width: 100%;
+    background: #F0FAFD;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    margin-bottom: 50px;
+}
+
+.customer-evaluation .col-lg-2 {
+    text-align: center;
+}
+
+#stars span {
+    padding: 2px;
+    border: 1px solid #FB2D2A;
+    border-radius: 50%;
+    color: #FB2D2A;
+}
+
+.comment {
+    padding-left: 8%;
+}
+
+.comment-list li {
+    margin-bottom: 40px;
+    width: 85%;
+    font-size: .875rem;
+}
+
+.comment-list p {
+    color: #AFB4B6;
+}
+
+.comment-list img {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #ccc;
+}
+
+.comment-list span:first-of-type {
+    margin-left: 10px;
+    color: #AFB4B6;
 }
