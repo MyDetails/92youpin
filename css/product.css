@@ -1,14 +1,26 @@
 /*  Extra small devices (portrait phones, less than 576px) */
 
-@media (max-width: 575.98px) {}
+@media (max-width: 575.98px) {
+    .application-item {
+        margin-bottom: 10%;
+    }
+}
 
 /*  Small devices (landscape phones, 576px and up) */
 
-@media (min-width: 576px) and (max-width: 767.98px) {}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .application-item {
+        margin-bottom: 10%;
+    }
+}
 
 /*  Medium devices (tablets, 768px and up) */
 
-@media (min-width: 768px) and (max-width: 991.98px) {}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .application-item {
+        margin-bottom: 10%;
+    }
+}
 
 /*  Large devices (desktops, 992px and up) */
 
@@ -17,3 +29,118 @@
 /*  Extra large devices (large desktops, 1200px and up) */
 
 @media (min-width: 1200px) {}
+
+.product-carousel-caption {
+    position: absolute;
+    left: 10%;
+    top: 40%;
+    color: #fff;
+}
+
+.case-show-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 214px;
+    background: #F0FAFD;
+}
+
+.case-show-item p {
+    font-size: .875rem;
+}
+
+.case-show-item img {
+    width: 90px;
+    height: 90px;
+}
+
+/*************** 电商行业 *****************/
+.industry-box {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+.industry-item img {
+    width: 90px;
+    height: 90px;
+}
+.industry-item p {
+    margin-top: 2rem;
+    text-align: center;
+}
+.industry-header {
+    margin-bottom: 3rem;
+}
+.industry-header a {
+    color: #7F8082;
+}
+.industry-title {
+    font-size: 1.5rem;
+}
+
+/*************** 行业应用 *****************/
+
+.industry-application {
+    background: #F0FAFD;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.application-item {
+    height: 350px;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.tab-pane {
+    margin-top: 40px;
+}
+
+.product-tab .carousel-indicators {
+    bottom: -3rem;
+}
+
+.product-tab .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #DFDFDF;
+    cursor: pointer;
+}
+
+.product-tab .carousel-indicators .active {
+    background: #FB2D2A;
+}
+
+.product-nav-tab .nav-item.show .nav-link,
+.product-nav-tab .nav-link.active {
+    color: #FB2D2A;
+    background-color: inherit;
+    border: 0;
+    border-bottom: 1px solid #FB2D2A;
+}
+.product-nav-tab .nav-link {
+    margin: 0 1rem;
+}
+.product-nav-tab a {
+    color: #686765;
+}
+.product-nav-tab .nav-link:hover {
+    border-color: #F0FAFD;
+    color: #FB2D2A;
+}
+.product-nav-tab .nav-link.active:hover {
+    border-color: #F0FAFD #F0FAFD #FB2D2A;
+    color: #FB2D2A;
+}
+
+.industry-application-title {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    font-size: .875rem;
+    text-align: center;
+    color: #7F8082;
+}
