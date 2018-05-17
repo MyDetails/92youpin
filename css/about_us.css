@@ -1,0 +1,144 @@
+/*  Extra small devices (portrait phones, less than 576px) */
+
+@media (max-width: 575.98px) {}
+
+/*  Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+/*  Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+/*  Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/*  Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {}
+
+.about-us-carousel-caption {
+    position: absolute;
+    left: 10%;
+    top: 40%;
+    color: #fff;
+}
+
+.we-are {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.we-are-header {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.we-are-header p {
+    color: #686868;
+}
+
+.we-business-container {
+    margin-top: 90px;
+}
+.we-business-title {
+    text-align: center;
+    margin-top: 20px;
+}
+.we-business-content {
+    width: 90%;
+    text-align: center;
+    font-size: .875rem;
+    color: #686868;
+}
+.we-business-img {
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.we-business-img:hover img {
+    transition: transform .5s;
+    transform: scale(1.2);
+}
+.business-show {
+    background: #F0FAFD;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.business-show-item {
+    width: 95%;
+    /* height:  */
+    padding: 0 5%;
+    border: 1px solid #DFDFDF;
+}
+
+.business-show-item img {
+    width: 4rem;
+    height: 4rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.business-show-item p {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    font-size: .875rem;
+    color: #686868;
+    line-height: 1.8rem;
+    text-align: center;
+}
+
+.development-history {
+    position: relative;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.development-history-item-year {
+    width: 8rem;
+    height: 8rem;
+    text-align: center;
+    line-height: 8rem;
+    border-radius: 50%;
+    border: 2px solid #BABABA;
+    font-size: 2rem;
+}
+.development-history-item h6 {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.development-history-item p {
+    font-size: .875rem;
+    color: #686868;
+}
+.year-active {
+    color: #FF3634;
+    border-color: #FF3634;
+}
+.founder-team {
+    background: #F0FAFD;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.founder-team-item-img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.founder-team-item-img:hover img {
+    transition: transform .5s;
+    transform: scale(1.2);
+}
+.founder-team-item h4 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.founder-team-item p {
+    width: 80%;
+    font-size: .875rem;
+    color: #686868;
+}
